@@ -1,0 +1,86 @@
+---
+layout: page
+# articles:
+#   excerpt_type: html
+full_width: false
+---
+<style>
+.live-img {
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23), 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0, 0, 0, 0.02);
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .card {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+</style>
+<div style="margin-bottom: 50px">
+<img src="http://217.7.233.140/cgi-bin/faststream.jpg?stream=full&fps=0" alt="Live Cam" class="live-img"/>
+</div>
+
+<div class="row">
+  <div class="column">
+    <a href="https://www.comeuntochrist.org/articles/temples">
+    <div class="card card--clickable">
+      <div class="card__image">
+        <img class="image" src="/temple.jpg"/>
+        <div class="overlay overlay--bottom">
+          <p>What are Temples?</p>
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="column">
+    <a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/">
+    <div class="card card--clickable">
+      <div class="card__image">
+        <img class="image" src="https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"/>
+        <div class="overlay overlay--bottom">
+          <p>Latest Temple News</p>
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="column">
+    <a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/street-map/">
+    <div class="card card--clickable">
+      <div class="card__image">
+        <img class="image" src="/map.jpg"/>
+        <div class="overlay overlay--bottom">
+          <p>Temple Location</p>
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
