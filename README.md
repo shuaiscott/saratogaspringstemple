@@ -1,1 +1,0 @@
-# Saratoga Springs Temple Live Cam Website
