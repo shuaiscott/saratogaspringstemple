@@ -1,90 +1,88 @@
----
-layout: page
-# articles:
-#   excerpt_type: html
-full_width: false
----
-<style>
-.live-img {
-  border-radius: 0.4rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23), 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0, 0, 0, 0.02);
-  height: 100%;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: url('loading.jpg') no-repeat;
-  background-position: center center;
-  min-height: 200px;
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Saratoga Springs Temple Cam</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      #live-img {
+        border-radius: 0.4rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23), 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0, 0, 0, 0.02);
+        object-fit: contain;
+        width: 100%;
+        
+      }
+    </style>
+	</head>
+	<body class="">
 
-}
+      <!-- One -->
+      <section id="one" class="style3 special">
+        <h3 style="margin-top: 1em"><i class="fas fa-place-of-worship"></i> Saratoga Springs Temple Construction Live Stream</h3>
+      </section>
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+		<!-- Header -->
+			<header id="header">
+				<div>
+            <img id="live-img" src="http://217.7.233.140/cgi-bin/faststream.jpg?stream=full&fps=0" alt="Live Cam"/>
+				</div>
+			</header>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+		<!-- Two -->
+			<section id="two" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight">
+						<div class="image"><img src="images/temple.jpg" alt="" /></div>
+						<div class="content">
+							<h3>What are Temples?</h3>
+							<p>Temples are literally houses of the Lord. They are places where individuals can go to make sacred promises with God, feel His spirit, and escape from the hectic demands of day-to-day life.</p>
+              <ul class="actions">
+                <li><a href="https://www.comeuntochrist.org/articles/temples" class="button">Learn More</a></li>
+              </ul>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/news.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Latest Temple Information</h3>
+							<p>The proposed 87,000 square foot temple will be the 18th temple constructed in Utah. No groundbreaking date has been formalized, but city utilities have started construction on Founders Boulevard. Stay up-to-date with the information from the website below.</p>
+              <ul class="actions" style="justify-content: flex-end;">
+                <li><a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/" class="button">Learn More</a></li>
+              </ul>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/map.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Temple Location</h3>
+							<p>The temple is located on the west of Redwood Road in Saratoga Springs, Utah overlooking the Wasatch Mountains and Utah Lake. Click below for maps and temple site information.</p>
+						  <ul class="actions">
+                <li><a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/street-map/" class="button">Learn More</a></li>
+              </ul>
+            </div>
+					</section>
+				</div>
+			</section>
 
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-  .card {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-}
-</style>
-<div style="margin-bottom: 50px">
-<img src="http://217.7.233.140/cgi-bin/faststream.jpg?stream=full&fps=0" alt="Live Cam" class="live-img" onerror="this.onerror=null; this.src='unavailable.jpg'"/>
-</div>
+		<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy; Saratoga Springs Live Cam 2019. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
+			</footer>
 
-<div class="row">
-  <div class="column">
-    <a href="https://www.comeuntochrist.org/articles/temples">
-    <div class="card card--clickable">
-      <div class="card__image">
-        <img class="image" src="/temple.jpg"/>
-        <div class="overlay overlay--bottom">
-          <p>What are Temples?</p>
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>
-  <div class="column">
-    <a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/">
-    <div class="card card--clickable">
-      <div class="card__image">
-        <img class="image" src="https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"/>
-        <div class="overlay overlay--bottom">
-          <p>Latest Temple News</p>
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>
-  <div class="column">
-    <a href="https://churchofjesuschristtemples.org/saratoga-springs-utah-temple/street-map/">
-    <div class="card card--clickable">
-      <div class="card__image">
-        <img class="image" src="/map.jpg"/>
-        <div class="overlay overlay--bottom">
-          <p>Temple Location</p>
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>
-</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
