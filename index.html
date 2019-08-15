@@ -15,9 +15,9 @@
       #live-img {
         border-radius: 0.4rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23), 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0, 0, 0, 0.02);
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
-        
+        margin-bottom: 2em;
       }
     </style>
 	</head>
@@ -29,11 +29,11 @@
       </section>
 
 		<!-- Header -->
-			<header id="header">
+			<div id="header" style="overflow:hidden;">
 				<div>
             <img id="live-img" src="http://217.7.233.140/cgi-bin/faststream.jpg?stream=full&fps=0" alt="Live Cam"/>
 				</div>
-			</header>
+			</div>
 
 		<!-- Two -->
 			<section id="two" class="wrapper">
